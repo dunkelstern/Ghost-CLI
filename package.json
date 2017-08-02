@@ -33,9 +33,6 @@
     "test:all": "yarn run test:unit && yarn run test:acceptance",
     "test": "yarn run lint && yarn run test:all"
   },
-  "engines": {
-    "node": "^4.5.0 || ^6.5.0"
-  },
   "preferGlobal": true,
   "dependencies": {
     "abbrev": "^1.1.0",
